@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TouchChecker</string>
+    <string name="app_description">This app sends an SMS to selected phone numbers if the person have not been using their device for certain amount of time</string>
+    <string name="touch_checker">Touch checker</string>
+    <string name="off">off</string>
+    <string name="on">on</string>
+</resources>

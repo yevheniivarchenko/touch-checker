@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/appDescriptionTextView"
+        android:layout_width="325dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="76dp"
+        android:text="@string/app_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/touchCheckerSwitch"
+        android:layout_width="159dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="84dp"
+        android:text="@string/touch_checker"
+        android:textOff="@string/off"
+        android:textOn="@string/on"
+        android:textSize="16sp"
+        android:checked="false"
+        app:showText="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appDescriptionTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
